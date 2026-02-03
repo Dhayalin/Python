@@ -1,0 +1,74 @@
+Math Function:-
+
+1. round(x)     - rounding off the variable x
+2. abs(x)       - finds the absolute value of the variable x
+3. pow(x,y)     - finds the yth power of the variable x
+4. max(x,y,z)   - finds the maximum value among the variables x,y,z
+5. min(x,y,z)   - finds the minimum value among the variables x,y,z
+
+
+import math:-
+
+1. math.pi       - pi value
+2. math.e        - exponent value
+3. math.sqrt(x)  - finds the square root of the variable x
+4. math.ceil(x)  - rounds up the variable x
+5. math.floor(x) - rounds down the variable x
+
+
+Ternary Operator or Conditional Expression:-
+
+(X if condition else Y)
+
+
+String Methods:-
+
+1. len() - returns the length of a variable
+2. .find("X") - returns the position of the character X (first occurence) 
+3. .rfind("X") - returns the position of the character X (last occurence)
+4. .captialize - returns the first character of the string in capital
+5. .upper() - returns the string in upper characters
+6. .lower() - returns the string in lower characters
+7. .isdigit() - returns true if the string contains only digits if not returns false
+8. .isalpha() - returns true if the string contains only alphabets not digits not whitespaces if not returns false
+9. .count() - returns the count of the character in the string
+10 .replace("X", "Y") - returns the string with X being replaced by Y 
+
+-- for String Functions use help(str)
+
+
+Collections:-
+
+1. list  = [] Ordered and Changeable. Duplicates allowed.
+    1. .append("X") - adds X to the end of the list
+    2. .remove("x") - removes X from the list
+    3. .insert(y, "X") - inserts X at the yth position of the list
+    4. .sort() - sorts the list in ascending Order
+    5. .reverse() - reverses the list
+    6. .clear() - deletes the list
+    7. .index("X") - returns the index of X in the list
+    8. .count("X") - returns the count of X in the list
+
+-- for List Methods use help(list)
+
+2. set   = {} Unordered and immutable. Can Add/Remove. No Duplicates.
+    1. .add("X") - adds X to the set
+    2. .remove("X") - removes X from the set
+    3. .pop() - removes a random element which is at first from the set  
+    4. .clear() - clears the set
+
+-- for set Methods use help(set)
+
+3. tuple = () Ordered and Unchangeable. Duplicates OK. Faster.
+    1. .index("X") - returns the index of X in the tuple
+    2. .count("X") - returns the count of X in the tuple
+     
+-- for tuple Methods use help(tuple)    
+
+4. dictionary = {key : value} Ordered and Changeable. No Duplicates.
+    1. .get("X") - returns the value of the key X
+    2. .update("X":"Y") - adds the key X and its value Y to the dictionary
+    3. .
+    4. 
+    5. 
+-- for dictionary Methods use help(dictionary) 
