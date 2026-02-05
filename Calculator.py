@@ -53,5 +53,5 @@ elif operator == "/" :
         print(f"Division (Quotient) of {a} and {b} is {result}")
 
 else:
-    print("Invalid Operator")    
+    print("Invalid Operation")
     
