@@ -26,7 +26,7 @@ String Methods:-
 1. len() - returns the length of a variable
 2. .find("X") - returns the position of the character X (first occurence) 
 3. .rfind("X") - returns the position of the character X (last occurence)
-4. .captialize - returns the first character of the string in capital
+4. .captialize() - returns the first character of the string in capital
 5. .upper() - returns the string in upper characters
 6. .lower() - returns the string in lower characters
 7. .isdigit() - returns true if the string contains only digits if not returns false
@@ -67,8 +67,12 @@ Collections:-
 
 4. dictionary = {key : value} Ordered and Changeable. No Duplicates.
     1. .get("X") - returns the value of the key X
-    2. .update("X":"Y") - adds the key X and its value Y to the dictionary
-    3. .
-    4. 
-    5. 
+    2. .update("X":"Y") - adds the key X and its value Y to the dictionary or updates the already existing key also
+    3. .pop("X") - deletes the key X and its value from the dictionary
+    4. .popitem() - deletes the newly added key and its value fromt the dictionary
+    5. .clear() - deletes the whole dictionary
+    6. .keys() - returns only the keys in the dictionary not the values
+    7. .values() - returns only the values in the dictionary not the keys
+    8. .items() - returns the dictionary keys and values in a 2D tuple
+
 -- for dictionary Methods use help(dictionary) 
