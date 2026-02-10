@@ -86,3 +86,12 @@ Collections:-
     8. .items() - returns the dictionary keys and values in a 2D tuple
 
 -- for dictionary Methods use help(dictionary) 
+
+Unicode:-
+    \u25CF 
+    \u250C 
+    \u2500 
+    \u2510 
+    \u2502 
+    \u2514 
+    \u2518
