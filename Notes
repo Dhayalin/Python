@@ -59,6 +59,8 @@ Collections:-
     7. .index("X") - returns the index of X in the list
     8. .count("X") - returns the count of X in the list
 
+-- list comprehension, list [expression for value in iterable if condition]
+
 -- for List Methods use help(list)
 
 2. set   = {} Unordered and immutable. Can Add/Remove. No Duplicates.
