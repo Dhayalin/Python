@@ -97,3 +97,6 @@ Unicode:-
     \u2502 
     \u2514 
     \u2518
+ 
+Scope Resolution:-
+    Local -> Enclosed -> Global -> Built-in
